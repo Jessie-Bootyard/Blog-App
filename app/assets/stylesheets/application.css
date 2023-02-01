@@ -1,0 +1,163 @@
+/* this is for index */
+
+
+*{
+    font-family: roboto;
+}
+* a{
+    text-decoration: none;
+}
+.body{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.can{
+    margin-top: 100px;
+    box-shadow: 0 0 8px 2px #888; 
+    width: 500px;
+    height: fit-content;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    color: #4267B2;
+    font-size: 20px;
+}
+.nav{
+    height: 20px;
+    text-align: right;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 10px;
+}
+.nav a{
+    color: goldenrod;
+    padding: 5px;
+}
+.nav a:hover{
+    color: orange;
+}
+.con{
+    border: 1px solid #cecece;
+}
+
+/* for _form.html.erb */
+.wrap{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.wrap label{
+    font-size: 1.3rem;
+}
+.status{
+    padding: 5px;
+}
+.status select{
+    padding: 5px;
+    width: 213px;
+    text-align: center;
+    border: 1px solid #cecece;
+    outline: none !important;
+    font-size: 1rem;
+}
+.status select:hover{
+    border: 1px solid goldenrod;
+}
+.status select:focus{
+    border: 1px solid goldenrod;
+}
+
+.title{
+    padding: 5px;
+}
+.title input{
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #cecece;
+    outline: none !important;
+    font-size: 1rem;
+}
+.title input:hover{
+    border: 1px solid goldenrod;
+}
+.title input:focus{
+    border: 1px solid goldenrod;
+}
+
+.body-con{
+    padding: 5px;
+}
+.body-con textarea{
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #cecece;
+    outline: none !important;
+    font-size: 1rem;
+}
+.body-con textarea:hover{
+    border: 1px solid goldenrod;
+}
+.body-con textarea:focus{
+    border: 1px solid goldenrod;
+}
+
+.btn{
+    padding: 5px;
+}
+.btn input{
+    padding: 5px;
+    width: 213px;
+    text-align: center;
+    border: 1px solid #cecece;
+    outline: none !important;
+    font-size: 1rem;
+}
+.btn input:hover{
+    border: 1px solid goldenrod;
+}
+.btn input:focus{
+    border: 1px solid goldenrod;
+}
+.show-title{
+    padding: 5px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+}
+.show-title:hover{
+    border: 1px solid goldenrod;
+}
+.show-title h1{
+    padding-left: 5px;
+    color: #4267B2;
+}
+.show-con{
+    border: 1px solid #cecece;
+    padding: 5px;
+    border-radius: 5px;
+    color: goldenrod;
+
+}
+.btn-down{
+    display: flex;
+    justify-content: right;
+}
+.edit a{
+    padding: 5px;
+
+}
+.delete a{
+    padding: 5px;
+}
+.comment{
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    padding: 10px;
+    border-top: none;
+}

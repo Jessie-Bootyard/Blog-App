@@ -1,0 +1,26 @@
+<div class="body">
+  <div class="can">
+  <div class="logo">
+    <h1>Blog App</h1>
+  </div>
+      <div class="nav">
+          <%= link_to "New Article", new_article_path %>
+      </div>
+
+        Our blog has <%= Article.public_count %> articles and counting!
+
+    <div class="con">
+          <ul>
+            <% @articles.each do |article| %>
+              <% unless article.archived? %>
+                <li>
+                  <%= link_to article.title, article %>
+                </li>
+              <% end %>
+            <% end %>
+          </ul>
+    </div>
+
+  </div>
+
+</div>
